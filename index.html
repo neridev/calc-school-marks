@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Výpočet hodnotenia</title>
+  <meta name="description" content="Výpočet hodnotenia">
+  <meta name="author" content="NeriDev">
+  <link rel="stylesheet" href="res/styles.min.css?v=1.0">
+</head>
+<body>
+  <h1>Výpočet hodnotenia</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <fieldset>
+          <legend>Tématické písomky</legend>
+          <div class="input-group mtb mm w100">
+            <label class="ml" for="tematic">Maximálny počet bodov</label> 
+            <input type="text" class="ml" id="tematic" placeholder="počet bodov">
+          </div>
+          <div class="input-group mtb w100">
+            <label id="tematicCalculate" class="button ml">Vypočítať</label>
+          </div>
+          <div class="input-group mtb w100">
+            <label class="tematic1" for="tematic1">90%</label> 
+            <input type="text" id="tematic1" disabled>
+          </div>
+          <div class="input-group mtb w100">
+            <label class="tematic2" for="tematic2">75%</label> 
+            <input type="text" id="tematic2" disabled>
+          </div>
+          <div class="input-group mtb w100">
+            <label class="tematic3" for="tematic3">50%</label> 
+            <input type="text" id="tematic3" disabled>
+          </div>
+          <div class="input-group mtb w100">
+            <label class="tematic4" for="tematic4">30%</label> 
+            <input type="text" id="tematic4" disabled>
+          </div>
+          <div class="input-group mtb w100">
+            <label class="tematic5" for="tematic5">00%</label> 
+            <input type="text" id="tematic5" value="0" disabled>
+          </div>
+        </fieldset>
+      </div>
+      <div class="col-sm-12 col-md-6">
+          <fieldset>
+            <legend>Priebežné písomky</legend>
+            <div class="input-group mtb mm w100">
+              <label class="ml" for="continu">Maximálny počet bodov</label> 
+              <input type="text" class="ml" id="continu" placeholder="počet bodov">
+            </div>
+            <div class="input-group mtb w100">
+              <label id="continuCalculate" class="button ml">Vypočítať</label>
+            </div>
+            <div class="input-group mtb w100">
+              <label class="continu1" for="continu1">90%</label> 
+              <input type="text" id="continu1" disabled>
+            </div>
+            <div class="input-group mtb w100">
+              <label class="continu2" for="continu2">75%</label> 
+              <input type="text" id="continu2" disabled>
+            </div>
+            <div class="input-group mtb w100">
+              <label class="continu3" for="continu3">60%</label> 
+              <input type="text" id="continu3" disabled>
+            </div>
+            <div class="input-group mtb w100">
+              <label class="continu4" for="continu4">46%</label> 
+              <input type="text" id="continu4" disabled>
+            </div>
+            <div class="input-group mtb w100">
+              <label class="continu5" for="continu5">00%</label> 
+              <input type="text" id="continu5" value="0" disabled>
+            </div>
+          </fieldset>
+      </div>
+    </div>
+  </div>
+  <script src="res/scripts.js"></script>
+</body>
+</html>
