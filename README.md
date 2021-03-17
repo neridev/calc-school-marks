@@ -1,2 +1,2 @@
-# Calc school marks
-Tool for calculating of school marks
+# Calc school grades
+Tool for calculating of school grades
